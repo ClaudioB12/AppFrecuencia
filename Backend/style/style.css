@@ -1,0 +1,88 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f5775;
+      color: #000;
+    }
+    .main {
+      display: flex;
+      padding: 20px;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    .left-panel, .right-panel {
+      background: #fff;
+      border: 1px solid #000;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .left-panel {
+      flex: 2;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+    }
+    .right-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+      text-align: left;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-top: 5px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .graph-area {
+      flex: 1;
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .table-area {
+      background: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      height: 100%;
+      overflow-y: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+    h2 {
+      margin: 0;
+      color: #0f5775;
+    }
